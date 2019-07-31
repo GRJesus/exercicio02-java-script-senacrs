@@ -7,16 +7,22 @@ var f = b + e; // "10" + 50 --> "1050" concatena a informação pois um é integ
 console.info (f);
 console.log (a);
 console.error(b);
+
+//começa//
 var h1 = document.createElement("h1"); // <h1></h1> cria na memória
 h1.append(f);
 document.body.appendChild(h1); // DOM
+//termina//
 
+//começa//
 var a1 = document.createElement("a");//<a></a>
 a1.setAttribute("href", "http://google.com");//<a href="http://google.com">
 a1.setAttribute("target", "_blank");
 a1.append(b);
 document.body.appendChild(a1);//DOM
+//termina//
 
+//começa//
 var ul = document.createElement("ul");
 var li = document.createElement("li");
 var li2 = document.createElement("li");
@@ -30,7 +36,9 @@ ul.appendChild(li3);
 li3.append(d)
 
 document.body.appendChild(ul);
+//termina//
 
+//começa//
 var section = document.createElement("section");
 var div = document.createElement("div");
 var h1 = document.createElement("h1");
@@ -63,3 +71,4 @@ ul.appendChild(li2);
 li2.append(a3);
 
 document.body.appendChild(section);
+//termina//
